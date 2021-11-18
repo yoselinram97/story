@@ -37,7 +37,7 @@ app.get('/about', function(req,res){
 
 let story = [{'page': 1, 'image': '/img/cale.jpg', 'text': 'Everynight at 10:30PM Cale would cover his ears and mouth.'}, {'page': 2, 'image': '/img/parentsleeping.jpg', 'text': 'His parents would be asleep in their room and he was too scared to make any noise.'},
 {'page': 3, 'image': '/img/house.jpg', 'text': 'This had begun a week after they moved into their new house.'}, {'page': 4, 'image': '/img/thecloset.jpg', 'text': 'There were noises coming from inside the closet.'},
-{'page': 5, 'image': '/img/closet.gif', 'text': 'Nails scratching the door, whimpers of an animal, someone laughing, the worst was when he heard a woman humming.', 'audio': ' '}, {'page': 6, 'image': '/img/thecloset.jpg', 'text': 'This would last for a few minutes, stop and then continue again. He tried to stay strong.'},
+{'page': 5, 'image': '/img/closet.gif', 'text': 'Nails scratching the door, whimpers of an animal, someone laughing, the worst was when he heard a woman humming.', 'audio': ' '}, {'page': 6, 'image': '/img/thecloset.jpg', 'text': 'The noises would last for a few minutes, stop and then continue again. He tried to stay strong.'},
 {'page': 7, 'image': '/img/doorsopen.jpg', 'text': 'Until the night the closet door opened.'}]
 
 app.get('/page/:number', function(req, res) {
