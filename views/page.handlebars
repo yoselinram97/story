@@ -1,0 +1,17 @@
+<div class="container text-center">
+<h4> Page {{ page.page }} </h4>
+
+{{#if page.image}}
+<img src="{{ page.image }}" />
+{{/if}}
+<p>{{ page.text }}</p>
+<p>{{#if page.audio }}
+{{> music}}
+{{/if}}
+</div>
+{{# if prevPage }}
+<a href="/page/{{prevPage}}">Prev</a>
+{{/if}}
+{{# if nextPage }}
+<a href="/page/{{nextPage}}">Next</a>
+{{/if}}

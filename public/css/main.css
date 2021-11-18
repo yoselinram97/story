@@ -1,0 +1,17 @@
+body {
+  background-color: #161616;
+  color: white;
+}
+
+p {
+  margin-top: 10px;
+}
+
+h1, h3, h4 {
+  color: #a33327;
+}
+
+audio {
+  display: block;
+  margin: 10px 50px 20px;
+}
